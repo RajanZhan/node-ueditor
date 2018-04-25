@@ -42,7 +42,7 @@ app.use("/ueditor/ue", ueditor(path.join(__dirname, 'public'), function (req, re
     else {  
         // console.log('config.json')  
         res.setHeader('Content-Type', 'application/json');  
-        res.redirect('/ueditor/nodejs/config.json');  
+        res.redirect('/ueditor/config.json');  
     }  
 }));  
   
